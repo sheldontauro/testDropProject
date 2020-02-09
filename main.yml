@@ -1,0 +1,13 @@
+database:
+  driverClass: com.mysql.cj.jdbc.Driver
+  user:
+  password:
+  url: jdbc:mysql://localhost:3306/dropmysql2
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 9092
+  adminConnectors:
+    - type: http
+      port: 9093

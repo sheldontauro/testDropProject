@@ -1,0 +1,9 @@
+/main1.yml
+
+#all the class files
+*.class
+
+#jar files
+*.jar
+
+/target/*
